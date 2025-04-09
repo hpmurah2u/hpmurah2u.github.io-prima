@@ -93,7 +93,7 @@
             player.getNetworkingEngine().registerRequestFilter((type, request) => {
                 if (type === shaka.net.NetworkingEngine.RequestType.MANIFEST || 
                     type === shaka.net.NetworkingEngine.RequestType.SEGMENT) {
-                    request.headers["Authorization"] = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDQxNTEzNDIsImlzcyI6IlZSIiwiZXhwIjoxNzQ0MTgwMTQyLCJ3bXZlciI6Mywid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjMsIndtdG1pZHZlciI6NCwid21pZGxlbiI6NTEyLCJ3bW9waWQiOjMyLCJ3bWlkIjoiYmJjMWZhNGItZGE0Mi00Y2IyLTk5YWQtNzAxYjExMzgxMWEzIiwiZmlsdGVyIjoiKHR5cGU9PVwidmlkZW9cIiYmRGlzcGxheUhlaWdodDw9NzIwKXx8KHR5cGU9PVwiYXVkaW9cIiYmZm91ckNDIT1cImFjLTNcIil8fCh0eXBlIT1cInZpZGVvXCImJnR5cGUhPVwiYXVkaW9cIikifQ.H-Xu_HtNevUBB7sJ3Yg22rWjLx4aQiFwoRIeUUcbeNw";
+                    request.headers["Authorization"] = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3NDQxODMxNTMsImlzcyI6IlZSIiwiZXhwIjoxNzQ0MjM3ODAwLCJ3bXZlciI6Mywid21pZGZtdCI6ImFzY2lpIiwid21pZHR5cCI6MSwid21rZXl2ZXIiOjMsIndtdG1pZHZlciI6NCwid21pZGxlbiI6NTEyLCJ3bW9waWQiOjMyLCJ3bWlkIjoiNGEzN2E5YmYtZTQ4NC00NWI2LWI0M2ItZWNlNzBlYzNkNmIxIiwiZmlsdGVyIjoiKHR5cGU9PVwidmlkZW9cIiYmRGlzcGxheUhlaWdodDw9NDgwKXx8KHR5cGU9PVwiYXVkaW9cIiYmZm91ckNDIT1cImFjLTNcIil8fCh0eXBlIT1cInZpZGVvXCImJnR5cGUhPVwiYXVkaW9cIikifQ.0yVjX6ZgNMDEA6XUcr1UNXRnHwmPjiLvbKQG49C1HEc";
                 }
             });
 
